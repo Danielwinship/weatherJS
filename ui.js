@@ -15,8 +15,8 @@ class UI {
     this.desc.textContent = weather.weather[0].description;
     this.string.textContent = `${weather.main.temp} F`;
     this.icon.setAttribute('src', `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`);
-    this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}`;
-    this.wind.textContent = `Wind MPH: ${weather.wind.speed}`;
+    this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}%`;
+    this.wind.textContent = `Wind: ${weather.wind.speed} MPH`;
     
   }
 }
