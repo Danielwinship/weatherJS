@@ -1,1 +1,1 @@
-A weather app that used OpenWeatherMap.org API to load weather data.
+A weather app that uses OpenWeatherMap.org API to load weather data.
